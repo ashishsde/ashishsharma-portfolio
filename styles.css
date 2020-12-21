@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+    font-size: 1.2rem;
+}
+:root{
+    --primary-color:#14B8A6;
+    --dark-grey:#A3A3A3;
+    --light-grey:#ECFCCB;
+    --foot-color:#38BDF8;
+}
+/* navbar-section */
+
+/* container */
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.container-section{
+    max-width: 500px;
+    margin:auto;
+}
+.container-section-blog{
+    max-width: 700px;
+    margin:auto;
+    background-color: var(--light-grey);
+    padding:2rem;
+    border-radius: 4px;
+}
+/* link */
+.link{
+    text-decoration: none;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    padding:6px;
+    color:white;
+    border:1px solid var(--primary-color);
+}
+.link-primary:hover{
+    padding:8px;
+    background-color: #D9F99D;
+    color:black
+}
+
+/* list */
+.list-non-bullet{
+    list-style: none;
+}
+
+.social-link{
+    display:inline;
+    
+}
+.list-item-inline{
+    padding:2rem;
+    margin:auto;
+}
+
+
+/* navigation */
+
+.navigation{
+    background-color:var(--primary-color);
+    color:white;
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.list-item-inline{
+    display: inline;
+}
+.nav-pills{
+    text-align: right;
+}
+.nav-pills .link{
+    color:white;    
+}
+/* .navigation .link-active{
+    font-weight: bold;
+} */
+.link:hover{
+    font-weight: bold;
+}
+/* header */
+
+.hero{
+    padding:2rem;
+}
+.hero img{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+.hero-heading{
+    text-align: center;
+    color:var(--dark-grey);
+    padding:1rem;
+}
+.hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+.hero-blog img{
+    max-width: 600px;
+    display: block;
+    margin:auto;
+    border-radius: 15px;
+}
+
+/* sections */
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow .container-section {
+    background-color: var(--light-grey);
+    padding:2rem;
+    border-radius: 4px;
+}
+
+
+/* footer-sectin */
+
+
+.footer{
+    background-color: var(--foot-color);
+    padding:2rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .social-link{
+    margin:5px;
+}
+.footer .link{
+    color:white;
+}
+.footer-header{
+    margin:1rem;
+}
